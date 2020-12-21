@@ -1,0 +1,43 @@
+/**/
+/*Copy and paste for comments*/
+
+body {
+  margin: 0px;
+  padding: 0px;
+  /*Text Style*/
+  color: black;
+  font-family: "Roboto", sans-serif;
+  height: 1500px;
+}
+
+nav{
+  margin-left: 17.36vw;
+  margin-right: 17.36vw;
+  margin-top: 2em;
+  padding-bottom: 2em;
+}
+
+ul{
+  padding: 0em;
+  display: inline;
+}
+
+li {
+  display: inline;
+}
+
+.Title {
+  margin-left: 17.36vw;
+  margin-right: 17.36vw;
+  padding-top: 120px;
+  
+}
+
+.Title p {
+  font-size: 3em;
+  margin: auto;
+  background: rgb(41,227,233);
+  background: linear-gradient(43deg, rgba(41,227,233,1) 0%, rgba(45,80,198,1) 34%, rgba(179,17,176,1) 77%);  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
