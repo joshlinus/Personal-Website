@@ -29,6 +29,7 @@ li {
   margin-left: 11vw;
   margin-right: 11vw;
   padding-top: 120px;
+  padding-bottom: 120px;
   
 }
 
@@ -40,3 +41,20 @@ li {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.grid-container {
+  margin-left: 11vw;
+  margin-right: 11vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 4em 0px;
+  grid-template-areas:
+    "Img Img Img Img"
+    "Name Name Info Info";
+}
+
+.Img { grid-area: Img; }
+.Name { grid-area: Name; 
+this is a test}
+.Info { grid-area: Info; }
