@@ -7,6 +7,7 @@ body {
   /*Text Style*/
   color: black;
   font-family: "Roboto", sans-serif;
+  background-color: rgb(255, 255, 255);
 }
 
 nav{
@@ -28,8 +29,8 @@ li {
 .Title {
   margin-left: 11vw;
   margin-right: 11vw;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 180px;
+  padding-bottom: 250px;
   
 }
 
@@ -54,7 +55,9 @@ li {
     "Name Name Info Info";
 }
 
-.Img { grid-area: Img; }
-.Name { grid-area: Name; 
-this is a test}
+.grid-container img {width: 100%;}
+
+.Img {grid-area: Img; }
+.Name { grid-area: Name; }
 .Info { grid-area: Info; }
+
